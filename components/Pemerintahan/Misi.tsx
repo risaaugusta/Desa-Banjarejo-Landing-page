@@ -44,26 +44,14 @@ const Misi = () => {
                     <List text="Menumbuh Kembangkan Kelompok Tani dan Gabungan Kelompok Tani serta bekerja sama denga HIPPA untuk memfasilitasi kebutuhan Petani karena 85 % perekonomian Desa Banjarejo digerakkan oleh sektor pertanian" /> 
                     <List text="Menumbuhkembangkan usaha kecil dan menengah" /> 
                     <List text="Bekerjasama dengan Dinas Pertanian dalam rangka peningkatan produktifitas pertanian" />
-                    <List text="" />
-                     
+                    <List text="Membangun dan mendorong majunya bidang pendidikan baik formal maupun informal yang mudah diakses dan dinikmati seluruh warga masyarakat tanpa terkecuali yang mampu menghasilkan insan intelektual, inovatif dan enterpreneur (wirausahawan) sehingga tercipta wirausahawan yang handal dan tenaga kerja yang berdaya saing" />
+                    <List text="Membangun dan mendorong usaha-usaha untuk pengembangan dan optimalisasi sektor pertanian, perkebunan, peternakan, dan perikanan, baik tahap produksi maupun tahap pengolahan hasilnya" />
+                    <List text="Membina hubungan yang harmonis antara Pemerintah Desa (Kepala Desa dan perangkat) dan Lembaga-lembaga yang ada di desa" />
+                    <List text="Berusaha untuk menjadi pengayom masyarakat terutama dalam hal menyelesaikan permasalahan-permasalahan yang ada di masyarakat" />
                   </div>
                 
               </div>
-            </div>
-
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full lg:mr-0"
-                />
-              </div>
-            </div>
+            </div> 
           </div>
         </div>
       </div>

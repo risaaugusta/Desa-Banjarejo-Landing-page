@@ -15,16 +15,10 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Layanan",
+    title: "Dokumentasi",
     path: "/blog",
     newTab: false,
-  },
-  {
-    id: 3,
-    title: "Potensi Desa",
-    path: "/contact",
-    newTab: false,
-  },
+  }, 
   {
     id: 4,
     title: "Pemerintahan",
