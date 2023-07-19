@@ -1,4 +1,6 @@
 {
   "/misi/page": "app/misi/page.js",
-  "/blog/page": "app/blog/page.js"
+  "/page": "app/page.js",
+  "/struktur/page": "app/struktur/page.js",
+  "/visi/page": "app/visi/page.js"
 }

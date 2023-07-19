@@ -1,27 +1,105 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./app/layout.tsx": {
+    "(app-client)/./components/About/Geografis.tsx": {
       "": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./components/About/Geografis.tsx",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./components/About/Geografis.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./components/About/Geografis.tsx",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Common/ScrollUp.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Common/ScrollUp.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Common/ScrollUp.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Common/ScrollUp.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Pricing/index.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Pricing/index.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Pricing/index.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Pricing/index.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Video/index.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Video/index.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Video/index.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Video/index.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -31,7 +109,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/about/page:app/about/page"
+          "app/struktur/page:app/struktur/page"
         ],
         "async": false
       },
@@ -39,7 +117,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/about/page:app/about/page"
+          "app/struktur/page:app/struktur/page"
         ],
         "async": false
       },
@@ -47,7 +125,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/about/page:app/about/page"
+          "app/struktur/page:app/struktur/page"
         ],
         "async": false
       }
@@ -74,6 +152,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/about/page:app/about/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/layout.tsx": {
+      "": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -182,80 +286,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./components/Common/ScrollUp.tsx": {
+    "(app-client)/./components/Struktur/index.tsx": {
       "": {
-        "id": "(sc_client)/./components/Common/ScrollUp.tsx",
+        "id": "(sc_client)/./components/Struktur/index.tsx",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/struktur/page:app/struktur/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./components/Common/ScrollUp.tsx",
+        "id": "(sc_client)/./components/Struktur/index.tsx",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/struktur/page:app/struktur/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./components/Common/ScrollUp.tsx",
+        "id": "(sc_client)/./components/Struktur/index.tsx",
         "name": "default",
         "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/Pricing/index.tsx": {
-      "": {
-        "id": "(sc_client)/./components/Pricing/index.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/Pricing/index.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/Pricing/index.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/Video/index.tsx": {
-      "": {
-        "id": "(sc_client)/./components/Video/index.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/Video/index.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/Video/index.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
+          "app/struktur/page:app/struktur/page"
         ],
         "async": false
       }
@@ -270,46 +322,106 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css"
     ]
   },
-  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/node_modules/react-modal-video/css/modal-video.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    }
-  },
-  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/styles/index.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    }
-  },
-  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/app/layout.tsx": {
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/About/Geografis.tsx": {
     "": {
-      "id": "(app-client)/./app/layout.tsx",
+      "id": "(app-client)/./components/About/Geografis.tsx",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/layout.tsx",
+      "id": "(app-client)/./components/About/Geografis.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/layout.tsx",
+      "id": "(app-client)/./components/About/Geografis.tsx",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/Common/ScrollUp.tsx": {
+    "": {
+      "id": "(app-client)/./components/Common/ScrollUp.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Common/ScrollUp.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Common/ScrollUp.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/Pricing/index.tsx": {
+    "": {
+      "id": "(app-client)/./components/Pricing/index.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Pricing/index.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Pricing/index.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/Video/index.tsx": {
+    "": {
+      "id": "(app-client)/./components/Video/index.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Video/index.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Video/index.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -319,7 +431,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/about/page:app/about/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     },
@@ -327,7 +439,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/about/page:app/about/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     },
@@ -335,7 +447,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/about/page:app/about/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     }
@@ -345,7 +457,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/about/page:app/about/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     },
@@ -353,7 +465,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/about/page:app/about/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     },
@@ -361,7 +473,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/about/page:app/about/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     }
@@ -414,6 +526,50 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/about/page:app/about/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/node_modules/react-modal-video/css/modal-video.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/styles/index.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/app/layout.tsx": {
+    "": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -626,80 +782,28 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/Common/ScrollUp.tsx": {
+  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/Struktur/index.tsx": {
     "": {
-      "id": "(app-client)/./components/Common/ScrollUp.tsx",
+      "id": "(app-client)/./components/Struktur/index.tsx",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./components/Common/ScrollUp.tsx",
+      "id": "(app-client)/./components/Struktur/index.tsx",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./components/Common/ScrollUp.tsx",
+      "id": "(app-client)/./components/Struktur/index.tsx",
       "name": "default",
       "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/Pricing/index.tsx": {
-    "": {
-      "id": "(app-client)/./components/Pricing/index.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/Pricing/index.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./components/Pricing/index.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/risaaugusta/Documents/PENDIDIKAN/UM/KKN/Web/Desa-Banjarejo-Landing-page/components/Video/index.tsx": {
-    "": {
-      "id": "(app-client)/./components/Video/index.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/Video/index.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./components/Video/index.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
+        "app/struktur/page:app/struktur/page"
       ],
       "async": false
     }

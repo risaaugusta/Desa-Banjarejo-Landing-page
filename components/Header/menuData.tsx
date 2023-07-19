@@ -26,8 +26,9 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "Struktur organisasi",
-        path: "/about",
+        title: "Struktur pemerintahan",
+        // path: "/about",
+        path: "/struktur",
         newTab: false,
       }, 
       {

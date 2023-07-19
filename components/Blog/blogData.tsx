@@ -43,5 +43,61 @@ const blogData: Blog[] = [
     tags: ["Sosial"],
     publishDate: "2023",
   },
+  {
+    id: 4,
+    title: "Kesenian Kuda Lumping",
+    paragraph:
+      "kesenian Kuda Lumping atau yang biasa disebut dengan Jaranan yang sering diadakan warga desa Banjarejo tiap RW dan RT",
+    image: "/images/blog/blog-04.jpeg",
+    author: {
+      name: "Dimas Adi",
+      image: "/images/blog/dimas.png",
+      designation: "Mahasiswa Teknik Informatika",
+    },
+    tags: ["Kesenian"],
+    publishDate: "2023",
+  },
+  {
+    id: 5,
+    title: "Majelis Ta'lim Majelis Wakil Cabang Nahdlatul Ulama Pakis",
+    paragraph:
+      "Kegiatan Majelis Ta’lim PCNU ini merupakan kegiatan rutin tiga bulan sekali PCNU Kabupaten Malang berkeliling se Kabupaten Malang.",
+    image: "/images/blog/blog-05.jpeg",
+    author: {
+      name: "Dimas Adi",
+      image: "/images/blog/dimas.png",
+      designation: "Mahasiswa Teknik Informatika",
+    },
+    tags: ["Keagamaan"],
+    publishDate: "2023",
+  },
+  {
+    id: 7,
+    title: "Gotong Royong Pembersihan Polindes ",
+    paragraph:
+      "Polindes, atau akronim dari pondok bersalin desa, adalah salah satu bentuk partisipasi atau peran serta masyarakat dalam menyediakan tempat pertolongan persalinan dan pelayanan kesehatan ibu dan anak, termasuk KB yang mana tempat dan lokasinya berada di desa. ",
+    image: "/images/blog/blog-07.jpeg",
+    author: {
+      name: "Lemuel Charis Arel",
+      image: "/images/blog/dimas.png",
+      designation: "Mahasiswa Teknik Industri",
+    },
+    tags: ["Kesehatan"],
+    publishDate: "2023",
+  },
+  {
+    id: 7,
+    title: "Gotong Royong Pembersihan Polindes ",
+    paragraph:
+      "Polindes, atau akronim dari pondok bersalin desa, adalah salah satu bentuk partisipasi atau peran serta masyarakat dalam menyediakan tempat pertolongan persalinan dan pelayanan kesehatan ibu dan anak, termasuk KB yang mana tempat dan lokasinya berada di desa. ",
+    image: "/images/blog/blog-07.jpeg",
+    author: {
+      name: "Lemuel Charis Arel",
+      image: "/images/blog/dimas.png",
+      designation: "Mahasiswa Teknik Industri",
+    },
+    tags: ["Kesehatan"],
+    publishDate: "2023",
+  },
 ];
 export default blogData;
