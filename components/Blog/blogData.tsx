@@ -84,20 +84,6 @@ const blogData: Blog[] = [
     },
     tags: ["Kesehatan"],
     publishDate: "2023",
-  },
-  {
-    id: 7,
-    title: "Gotong Royong Pembersihan Polindes ",
-    paragraph:
-      "Polindes, atau akronim dari pondok bersalin desa, adalah salah satu bentuk partisipasi atau peran serta masyarakat dalam menyediakan tempat pertolongan persalinan dan pelayanan kesehatan ibu dan anak, termasuk KB yang mana tempat dan lokasinya berada di desa. ",
-    image: "/images/blog/blog-07.jpeg",
-    author: {
-      name: "Lemuel Charis Arel",
-      image: "/images/blog/dimas.png",
-      designation: "Mahasiswa Teknik Industri",
-    },
-    tags: ["Kesehatan"],
-    publishDate: "2023",
-  },
+  }
 ];
 export default blogData;

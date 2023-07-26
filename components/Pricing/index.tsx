@@ -11,7 +11,7 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Organisasi Umum"
+          title="Kelembagaan Desa"
           // paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           paragraph=""
           center
@@ -26,17 +26,34 @@ const Pricing = () => {
             duration=''
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="Masyarakat sejahtera melalui Ibu-ibu, Kader PKK, dan Ibu Kades." status="active" /> 
-            <OfferList text="Membantu program pemerintahan desa melalui Ibu-ibu" status="active" /> 
+            <OfferList text="menggali, menggerakkan dan mengembangkan potensi masyarakat." status="active" /> 
+            <OfferList text="menyuluh dan menggerakkan kelompok-kelompok PKK Dusun, RW, RT, dan dasa wisma" status="active" /> 
+            <OfferList text="fasilitator, perencana, pelaksana, pengendali, pembina, dan pembombing Gerakan PKK" status="active" /> 
           </PricingBox>
           <PricingBox
             packageName="Basic"
-            price='Posyandu'
+            price='Posyandu Balita'
             duration=''
             subtitle=""
-          >
+          
+          >            
+            <OfferList text="terdapat 7 posko Posyandu Balita" status="active" /> 
             <OfferList text="Imunisasi untuk membentuk kekebalan imunitas pada anak balita" status="active" />
-            <OfferList text="Senam kebugaran jasmani bagi lansia" status="active" /> 
+            <OfferList text="mencegah dan mengatasi masalah gizi buruk serta menekan angka kematian balita.
+            " status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Basic"
+            price='Posyandu Lansia'
+            duration=''
+            subtitle=""
+          
+          >
+            <OfferList text="terdapat 7 posko Posyandu Lansia" status="active" />
+            <OfferList text="Pelayanan kesehatan tiap bulan, seperti Pemeriksaan fisik" status="active" /> 
+            <OfferList text="Penyuluhan kesehatan, seperti penyuluhan gizi, penyakit dan lainnya terkait dengan kesehatan lansia." status="active" /> 
+            <OfferList text="Kegiatan Olah Raga seperti jalan sehat dan senam lansia." status="active" /> 
+            <OfferList text="Kegiatan Non Kesehatan untuk meningkatkan interaksi sosial." status="active" /> 
           </PricingBox>
           <PricingBox
             packageName="Plus"
@@ -45,6 +62,48 @@ const Pricing = () => {
             subtitle=""
           >
             <OfferList text="Kegiatan pelatihan bagi petani untuk meningkatkan kualitas dan kuantitas hasil panen" status="active" />
+            <OfferList text='Kelompok Tani "Banjar Tani I" terletak di Dusun Krajan' status="active" />
+            <OfferList text='Kelompok Tani "Banjar Tani II" terletak di Dusun Ngamprong' status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Plus"
+            price='Karang Taruna "Adinata"'
+            duration=''
+            subtitle=""
+          >
+            <OfferList text="Kegiatan pemuda-pemuda Desa Banjarejo " status="active" />
+            <OfferList text="mengembangkan potensi generasi muda dan masyarakat" status="active" />
+            <OfferList text="pencegahan dan penanggulangan permasalahan sosial" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Plus"
+            price='Gapoktan "Banjar Tani"'
+            duration=''
+            subtitle=""
+          >
+            <OfferList text="Gabungan Kelompok Tani seluruh Desa Banjarejo" status="active" />
+            <OfferList text="Penyediaan modal usaha dan menyalurkannya secara kredit /pinjaman kepada para petani " status="active" />
+            <OfferList text="Melakukan proses pengolahan produk para anggota" status="active" />
+            <OfferList text="Menyelenggarakan perdagangan, memasarkan/menjual produk petani kepada pedagang/industri" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Plus"
+            price='LPMD'
+            duration=''
+            subtitle=""
+          >
+            <OfferList text="Lembaga Pemberdayaan Masyarakat Desa" status="active" /> 
+            <OfferList text="Mengendalikan pembangunan desa" status="active" />
+            <OfferList text="Menggerakkan swadaya gotong royong masyarakat" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Plus"
+            price='Koperasi Wanita "Dewi-Dewi'
+            duration=''
+            subtitle=""
+          >
+            <OfferList text="Memenuhi kebutuhan hidup kaum perempuan " status="active" />
+            <OfferList text="Menjadi wadah untuk memberdayakan perempuan" status="active" />
           </PricingBox>
         </div>
       </div>

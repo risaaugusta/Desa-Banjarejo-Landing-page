@@ -12,10 +12,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Butuh bantuan? Kirimkan Pesan 
+                Butuh bantuan? Kirimkan Pesan
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-              Tim dukungan kami akan menghubungi Anda secepatnya melalui email.
+                Tim dukungan kami akan menghubungi Anda secepatnya melalui email.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -40,7 +40,7 @@ const Contact = () => {
                         htmlFor="email"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                       Email
+                        Email
                       </label>
                       <input
                         type="email"
@@ -69,6 +69,11 @@ const Contact = () => {
                     <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                       Kirim
                     </button>
+                    <div className="w-100 py-8">
+                      <a href='https://wa.me/6282190904443' className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                        Hubungi Whatsapp
+                      </a>
+                    </div>
                   </div>
                 </div>
               </form>
@@ -79,6 +84,22 @@ const Contact = () => {
           </div>
         </div>
       </div>
+{/* 
+      <div className="container">
+        <div className="-mx-4 flex flex-wrap">
+          <div className="w-50 px-4 lg:w-7/12 xl:w-8/12">
+            <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+              Kirim
+            </button>
+          </div>
+          <div className="w-50 px-4 lg:w-5/12 xl:w-4/12">
+            <a href='https://wa.me/6282190904443' className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+              Hubungi Whatsapp
+            </a>
+          </div>
+        </div>
+      </div> */}
+
     </section>
   );
 };

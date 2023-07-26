@@ -33,24 +33,10 @@ const menuData: Menu[] = [
       }, 
       {
         id: 43,
-        title: "Visi",
+        title: "Visi dan Misi",
         path: "/visi",
         newTab: false,
-      },
-      {
-        id: 44,
-        title: "Misi",
-        path: "/misi",
-        newTab: false,
-      },
-      // {
-      //   id: 45,
-      //   title: "Blog Details Page",
-      // path: "/blog",
-      // path: "/blog-sidebar",
-      //   path: "/blog-details",
-      //   newTab: false,
-      // }
+      }
     ],
   },
 ];

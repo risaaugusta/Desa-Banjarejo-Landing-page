@@ -23,7 +23,7 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 4,
-    name: "Diar Puguh Tri Henratmoko",
+    name: "Diar Puguh Tri Hendratmoko",
     designation: "Kepala Seksi Kesejahteraan",
     image: "/images/testimonials/auth-03.png",
   },
@@ -36,7 +36,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 6,
     name: "Eko Sulistiyowati",
-    designation: "Kepala Urusan Tata Usaha",
+    designation: "Kepala Urusan Tata Usaha dan Umum",
     image: "/images/testimonials/auth-03.png",
   },
   {

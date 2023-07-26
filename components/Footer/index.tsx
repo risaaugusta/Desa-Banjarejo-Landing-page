@@ -78,6 +78,12 @@ const Footer = () => {
                     >
                       banjarejo.ngantang@malangkab.go.id
                     </a>
+                    <a
+                      href="/"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      082190904443 (Whatsapp)
+                    </a>
                   </li> 
                 </ul>
               </div>
